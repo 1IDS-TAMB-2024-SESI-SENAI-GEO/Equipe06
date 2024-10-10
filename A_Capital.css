@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	font-family: arial;
+}
+
+.topo{
+	background-color:#255e22;
+	height: 97px;
+	width:100%;
+	border-bottom: 50px solid #457a60;
+}
+nav ul{
+	width:70%;
+	margin-left: auto;
+    margin-right: auto; 
+	transform: translateY(70%);
+	list-style-type: none;
+	color:white;
+	overflow: hidden;
+	border-left: 2px solid gray;
+}
+
+.titulo_nav{
+	float:left;
+	padding-left:2%;
+	transform: translateY(200%); 
+}
+
+li a{
+	float: center;
+	text-decoration:none;
+	color:white;
+	transform: translateY(200%); 
+}
+nav img{
+	display: block;
+	width:17%;
+	height:17%;
+	float:right;
+	border-right: 30px solid #7aa777;
+	margin-right: 50px;
+	transform: translateY(-40%);
+}
+
+nav p{
+	float:left;
+	display:inline;
+	color:white;
+}
+.imagem{
+	overflow: hidden;
+}
+.imagem img{
+	width:100%;
+	transition:scale 400ms;
+}
+
+.imagem:hover img{
+	scale:120%;
+}
+
+.conteudo{
+	width:70%;
+	background-color: white;
+	margin-top: 50px;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 200px;
+	border-radius: 2%;
+}
+.conteudo p {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.titulo{
+	font-size: 30px;
+	color: #255e22;
+	text-indent: 25px;
+}
+
+.texto{
+	font-size: 20px;
+	text-indent: 25px;
+}
+
+.texto b{
+	color:#255e22;
+}
+body{
+	background-color: #e7dfd6;
+}
+
+#tabela-geografia{
+	font-family:arial;
+	border-collapse:collapse;
+	width:90%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+#tabela-geografia th{
+	background-color:#c9c9c9;
+	color:#000;
+	text-align:left;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+}
+#tabela-geografia td, #tabela-geografia th{
+	padding:8px;
+	border:1px solid #DDD;
+}
+#tabela-geografia tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+#tabela-geografia tr:hover{
+background-color:#ddd;
+}
+
+.texto_introducao{
+	font-size: 20px;
+	text-indent: 25px;
+	width:50%;
+	float: left;
+	margin-bottom:50px;
+}
+
+.texto_introducao b{
+	color:#255e22;
+}
+
+.conteudo a{
+	color:#255e22;
+}
+.mapa_municipios{
+	width:35%;
+	float: right;
+	transform: translateY(-20%) translateX(-15%);
+}
+
+.mapa_municipios:hover{
+	width:35.5%;
+}
+
+.municipios{
+	padding-bottom: 30px;
+}
+
+.introducao{
+	padding-bottom: 20px;
+}
+
+.mapa iframe{
+	margin-left:100px;
+	margin-bottom:20px;
+	width:80%;
+}
+
+footer{
+	background-color:#255e22;
+	border-top: 20px solid #457a60;
+	margin-top: 20px; 
+	color:white;
+	text-decoration: none;
+	font-size: 16px;
+	height: 371px;
+}
+
+footer ul{
+	list-style-type: none;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+#destaques{
+	font-size:20px;
+	padding-bottom:5px;
+	color:white;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+#feito_por{
+	font-size: 15px;
+	margin-left: 30%;
+	width:20%;
+	padding-top: 30px;
+	transform: translateX(25%)
+}
+
+#contatos{
+	float:left;
+	margin-left: 10%;
+	padding-top: 30px;
+	
+}
+
+footer img{
+	float: right;
+	width:35%;
+	height:35%;
+	padding-right: 8%;
+	transform: translateY(-60%);
+}
+
+#contatos i{
+	font-size:20px;
+	padding-left: 5px;
+}
+
+#hierarquia_mapa{
+	width:60%;
+	margin-left:190px;
+	padding-bottom:20px;
+}

@@ -1,0 +1,23 @@
+#tabela-geografia{
+	font-family:arial;
+	border-collapse:collapse;
+	width:50%;
+}
+#tabela-geografia th{
+	background-color:#c9c9c9;
+	color:#000;
+	text-align:left;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+}
+#tabela-geografia td, #tabela-geografia th{
+	padding:8px;
+	border:1px solid #DDD;
+}
+#tabela-geografia tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+#tabela-geografia tr:hover{
+background-color:#ddd;
+}
